@@ -4,7 +4,7 @@
 // 	protoc        v3.21.12
 // source: proto/product/product.proto
 
-package product
+package order
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -140,7 +140,7 @@ const file_proto_product_product_proto_rawDesc = "" +
 	"\border_id\x18\x01 \x01(\x05R\aorderId\x12\x16\n" +
 	"\x06status\x18\x02 \x01(\tR\x06status2T\n" +
 	"\fOrderService\x12D\n" +
-	"\vCreateOrder\x12\x19.order.CreateOrderRequest\x1a\x1a.order.CreateOrderResponseB\x19Z\x17./proto/product;productb\x06proto3"
+	"\vCreateOrder\x12\x19.order.CreateOrderRequest\x1a\x1a.order.CreateOrderResponseB\x15Z\x13./proto/order;orderb\x06proto3"
 
 var (
 	file_proto_product_product_proto_rawDescOnce sync.Once

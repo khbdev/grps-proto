@@ -4,7 +4,7 @@
 // 	protoc        v3.21.12
 // source: proto/order/order.proto
 
-package order
+package product
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -137,7 +137,7 @@ const file_proto_order_order_proto_rawDesc = "" +
 	"\x04name\x18\x02 \x01(\tR\x04name\x12\x14\n" +
 	"\x05price\x18\x03 \x01(\x01R\x05price2[\n" +
 	"\x0eProductService\x12I\n" +
-	"\x0eGetProductByID\x12\x1a.product.GetProductRequest\x1a\x1b.product.GetProductResponseB\x15Z\x13./proto/order;orderb\x06proto3"
+	"\x0eGetProductByID\x12\x1a.product.GetProductRequest\x1a\x1b.product.GetProductResponseB\x19Z\x17./proto/product;productb\x06proto3"
 
 var (
 	file_proto_order_order_proto_rawDescOnce sync.Once

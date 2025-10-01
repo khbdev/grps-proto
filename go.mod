@@ -1,5 +1,6 @@
 module github.com/khbdev/grps-proto
 
+
 go 1.24.0
 
 require (

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package order;
+option go_package = "github.com//grpc-protos/proto/order;orderpb";
+
+// OrderService gRPC service
+service OrderService {
+  // Yangi order yaratish
+  rpc CreateOrder (CreateOrderRequest) returns (CreateOrderResponse);
+}
+
+// Request: order yaratish uchun
+message CreateOrderRequest {
+  int32 user_id = 1;
+  int32 product_id = 2;
+}
+
+// Response: order natijasi
+message CreateOrderResponse {
+  int32 order_id = 1;
+  string status = 2; // masalan "CREATED"
+}
